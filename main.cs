@@ -13,7 +13,7 @@ class Program
 
         Console.WriteLine("What movie can you see by yourself?");
         Console.WriteLine("");
-        
+
         void movieTypes()
         {
             Console.WriteLine("Enter the word that is associated with your age");
@@ -23,7 +23,7 @@ class Program
             Console.WriteLine("13 - 16 years old (Teen)");
             Console.WriteLine("5 - 12 years old (Child)");
             ageGroup = Console.ReadLine();
-            
+
             if (ageGroup == "Adult")
             {
                 Console.WriteLine("You can see a R rated movie alone.");
@@ -41,7 +41,7 @@ class Program
                 Console.WriteLine("You are too young too watch a movie alone. Sorry!");
             }
         }
-        
+
         movieTypes();
         Console.WriteLine("\nDone.");
     }
