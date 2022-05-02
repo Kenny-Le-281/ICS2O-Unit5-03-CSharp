@@ -37,7 +37,6 @@ class Program
                 Console.WriteLine("You can see a G or PG rated movie alone.");
             }
             else {
-                Console.Clear();
                 Console.WriteLine("You are too young too watch a movie alone. Sorry!");
             }
         }
