@@ -36,7 +36,8 @@ class Program
             {
                 Console.WriteLine("You can see a G or PG rated movie alone.");
             }
-            else {
+            else 
+            {
                 Console.WriteLine("You are too young too watch a movie alone. Sorry!");
             }
         }
